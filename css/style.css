@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+  
+  
+}
+.login-form{
+    width: 350px;
+    height: 500px;
+    background: #ff9800;
+    border-radius: 30px;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+}
+.user_name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+
+
+    }
+.fildes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+input{
+    width: 70%;
+    padding: 8px;
+    border: none;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.fildes input:focus{
+    width: 85%;
+}
+input[type="submit"]{
+    background: greenyellow;
+  
+}
+
+input[type="submit"]:hover{
+    background: red;
+    color: aliceblue;
+  
+}
+
+input[type="submit"]:active{
+    background: blue;
+    color: aliceblue;
+  
+}
+
+
+
+.social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+  .social a i{
+    color: aliceblue;
+      padding: 16px 20px;
+      border-radius: 10px;
+      font-size: 25px;
+      transition: .5s all;
+  }
+  .social a:hover .facebook{
+     transform: scale(1.2);
+  
+}
+
+.social a:hover .youtube{
+    transform: scale(1.2);
+ 
+}
+
+.social a:hover .google{
+    transform: scale(1.2);
+ 
+}
+
+.social a:hover .twitter{
+    transform: scale(1.2);
+ 
+}
